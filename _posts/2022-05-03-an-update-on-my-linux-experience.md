@@ -30,7 +30,7 @@ when navigating around the OS.
 
 ### Any negatives?
 
-If you've had a read my previous post about switching to Linux you would know that my initial entry into this space
+If you've read my previous post about switching to Linux you would know that my initial entry into this space
 wasn't the smoothest. Although I was up and running, I had to make many compromises on my experience. This all
 changed when I switched from my original Samsung laptop to a more supported Lenovo Thinkpad. Since making that change
 I have no issues with sound, video or any other features on the machine.
@@ -40,4 +40,3 @@ got my work provided Mac or my gaming PC (10-year-old Derek is screaming right n
 I'm truly excited to see where this journey takes me, I'm already planning on building a NAS server running Linux later
 on this year and that experience I will document. Until then, I will hopefully drop more posts on things I learn
 and coming soon I will provide a little Bash/Linux cheat sheet for anyone curious about Linux.
-
