@@ -57,9 +57,13 @@ plugins:
 
 author:
   name   : "Derek Baker"
-  avatar : "/assets/images/profile-image.jpg"
+  avatar : "/assets/images/new-profile-image.jpeg"
   bio    : "I try to build things with code."
+  location : "London, UK"
   links:
+    - label: "Email"
+      icon:  "fas fa-fw fa-envelope-square"
+      url: "mailto:hello@derekbaker.dev"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://derekbaker.dev"
@@ -69,9 +73,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/backslashbaker"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 footer:
   links:
@@ -81,9 +82,10 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/backslashbaker"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hello@derekbaker.dev"
+
 
 defaults:
   # _posts
