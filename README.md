@@ -1,28 +1,57 @@
-# Minimal Mistakes remote theme starter
+# Jekyll Blog with Minimal Mistakes Theme
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen)](https://derekbaker.dev)
 
-Contains basic configuration to get you a site with:
+This repository contains the source code for a Jekyll blog using the Minimal Mistakes theme. The blog is hosted on GitHub Pages and can be accessed at [derekbaker.dev](https://derekbaker.dev)
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## Getting Started
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+To set up the blog locally and start making changes, follow these steps:
+
+### Prerequisites
+
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/): Ensure Ruby is installed on your system.
+- [Bundler](https://bundler.io/): Install Bundler, a dependency manager for Ruby.
+
+### Installation
+
+1. Clone this repository: `git clone https://github.com/backslashbaker/backslashbaker.github.io`.
+2. Navigate to the repository: `cd backslashbaker.github.io`.
+3. Install dependencies: `bundle install`.
+
+### Usage
+
+1. Edit the `_config.yml` file to configure the blog settings, including your site's title, description, and social media links.
+2. Add, modify, or remove Markdown files in the `_posts` directory to create blog posts.
+3. Customize the appearance of the blog by modifying the Sass files in the `_sass` directory.
+4. Preview the blog locally: `bundle exec jekyll serve`.
+5. Open your browser and visit `http://localhost:4000` to see the blog.
+
+### Deployment
+
+The blog is automatically deployed to GitHub Pages when changes are pushed to the `main` branch. Simply commit and push your changes to update the live site.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or would like to suggest improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/): A flexible Jekyll theme by Michael Rose.
+
+## Contact
+
+For any additional questions or inquiries, feel free to contact the project maintainer:
+
+Your Name
+
+- Email: hello@derekbaker.dev
+- GitHub: [github.com/backslashbaker](https://github.com/backslashbaker)
 
 ---
 
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when d
-eveloping locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+Feel free to customize the content according to your specific blog and preferences. Remember to update the contact information, URLs, and any other relevant details.
